@@ -57,7 +57,7 @@ export default function Layout() {
         }}
       >
         <Stack.Screen // O stack.screen forma de eu falar quais rotas exisitem no meu app
-          name="index"
+          name="Home"
           redirect={isUserAuthenticated} // esse redirect vai redirecionar o usuario pra proxima rota caso esse valor seja verdadeiro
         />
         <Stack.Screen name="memories" />
