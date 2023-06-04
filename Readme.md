@@ -13,6 +13,16 @@ A aplicação foi desenvolvida utilizando TypeScript, TailwindCSS, React-Native 
 
 The application was developed, using TypeScript, TailwindCSS, React-Native and other libs. it consumes a REST API, that allows, create, register, edit and delete memories.
 
+
+<h2>Built with</h2>
+
+<ul>
+  <li>React Native</li>
+  <li>TailwindCSS</li>
+  <li>TypeScript</li>
+</ul>
+
+
 <div align="center">
 <img src="https://i.imgur.com/T89ZaYe.png"/>
 <img src="https://i.imgur.com/aZQ33FE.png"/>
