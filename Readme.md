@@ -12,3 +12,7 @@ A aplicação foi desenvolvida utilizando TypeScript, TailwindCSS, React-Native 
 <p><strong>Memory Recording App</strong></p>
 
 The application was developed, using TypeScript, TailwindCSS, React-Native and other libs. it consumes a REST API, that allows, create, register, edit and delete memories.
+
+<img src="https://i.imgur.com/T89ZaYe.png"/>
+<img src="https://i.imgur.com/aZQ33FE.png"/>
+<img src="https://i.imgur.com/upGOLP2.png"/>
