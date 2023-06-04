@@ -21,7 +21,6 @@ The application was developed, using TypeScript, TailwindCSS, React-Native and o
   <li>TailwindCSS</li>
   <li>TypeScript</li>
 </ul>
---------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div align="center">
 <img src="https://i.imgur.com/T89ZaYe.png"/>
