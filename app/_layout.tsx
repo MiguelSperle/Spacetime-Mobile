@@ -13,7 +13,7 @@ import {
 import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree'
 import { SplashScreen, Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import * as SecureStore from 'expo-secure-store' // como se fosse um cookies para react native (guarda infor sensivel)
 
 const StyledStripes = styled(Stripes)
@@ -47,8 +47,8 @@ export default function Layout() {
       imageStyle={{ position: 'absolute', left: '-100%' }} // colocando a imagem na posição da esquerda
     >
       <StyledStripes className="absolute left-2" />
-      <StatusBar style="light" />
 
+      <StatusBar style="light" />
       <Stack // conforme eu clico num link para navegação o stack faz um animação para a troca de tela
         screenOptions={{
           headerShown: false,
