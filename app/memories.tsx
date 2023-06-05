@@ -1,6 +1,6 @@
 import { View, TouchableOpacity, ScrollView, Text, Image } from 'react-native'
 import NLWLogo from '../src/assets/nlw-spacetime-logo.svg'
-import { Link, useFocusEffect, useRouter } from 'expo-router'
+import { Link, useFocusEffect } from 'expo-router'
 import IconVector from '@expo/vector-icons/Feather'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import * as SecureStore from 'expo-secure-store'
@@ -22,14 +22,16 @@ interface Memory {
 export default function NewMemory() {
   // tirando os componentes de trás da status bar ou seja fazendo com o conteudo começe na area segura tela
   const { bottom, top } = useSafeAreaInsets()
-  const router = useRouter()
+  // const router = useRouter()
 
   const [memories, setMemories] = useState<Memory[]>([])
 
   async function signOut() {
     // função de logout(sair da conta)
-    await SecureStore.deleteItemAsync('token') // deletenado o token pro usuario não ficar salvo e quando entrar dnv, te que fazer login dnv
-    router.push('/')
+    alert('Você foi deslogado, recomendo reiniciar o app.')
+    return await SecureStore.deleteItemAsync('token') // deletenado o token pro usuario não ficar salvo e quando entrar dnv, te que fazer login dnv
+
+    // router.push('/')
   }
 
   async function fetchMemories() {

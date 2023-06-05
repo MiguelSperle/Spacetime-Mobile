@@ -5,12 +5,12 @@ import { makeRedirectUri, useAuthRequest } from 'expo-auth-session' // configura
 import * as SecureStore from 'expo-secure-store' // como se fosse um cookies para react native (guarda infor sensivel)
 import { api } from '../src/lib/api'
 import { useRouter } from 'expo-router' // uso o useRouter pq eu quero enviar o usuario para outra pagina do app
+import { GITHUB_CLIENT_ID } from '@env'
 
 const discovery = {
   authorizationEndpoint: 'https://github.com/login/oauth/authorize',
   tokenEndpoint: 'https://github.com/login/oauth/access_token',
-  revocationEndpoint:
-    'https://github.com/settings/connections/applications/<2ce5af9a7c6967b2b033>', // configurando o authSession(esse ultimo numero é id do app do github)
+  revocationEndpoint: `https://github.com/settings/connections/applications/${GITHUB_CLIENT_ID}`, // configurando o authSession(esse ultimo numero é id do app do github)
 }
 
 export default function App() {
