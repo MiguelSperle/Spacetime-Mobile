@@ -28,7 +28,7 @@ You're to get the client_id on your Oauth App (mobile).
 
 ```
 # GITHUB (Mobile)
-GITHUB_CLIENT_ID=123456789 ``` This number is example ```
+GITHUB_CLIENT_ID="123456789" ``` This number is example ```
 ```
 
 
