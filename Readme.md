@@ -22,6 +22,17 @@ The application was developed, using TypeScript, TailwindCSS, React-Native and o
   <li>TypeScript</li>
 </ul>
 
+<h2>File .env on Mobile project</h2>
+
+You're to get the client_id on your Oauth App (mobile). 
+
+```
+# GITHUB (Mobile)
+GITHUB_CLIENT_ID=123456789 ``` This number is example ```
+```
+
+
+
 <div align="center">
 <img src="https://i.imgur.com/T89ZaYe.png"/>
 <img src="https://i.imgur.com/aZQ33FE.png"/>
