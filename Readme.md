@@ -33,9 +33,9 @@ GITHUB_CLIENT_ID="123456789" ``` This number is example ```
 
 
 
-<div align="center">
-<img src="https://i.imgur.com/T89ZaYe.png"/>
-<img src="https://i.imgur.com/aZQ33FE.png"/>
-<img src="https://i.imgur.com/upGOLP2.png"/>
+<div display="flex" align-itens="center" gap=8 width="100%" align="center">
+<img src="https://i.imgur.com/m9hslUD.png"/>
+<img src="https://i.imgur.com/JPE9aXN.png"/>
+<img src="https://i.imgur.com/1ZWkcd6.png"/>
 </div>
   
