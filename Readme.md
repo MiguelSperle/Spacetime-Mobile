@@ -33,7 +33,7 @@ GITHUB_CLIENT_ID="123456789" ``` This number is example ```
 
 
 <h2>Screenshots</h2>
-<div display="flex" align-itens="center" gap=8 width="100%" align="center">
+<div display="flex" align-itens="center" width="100%" align="center">
 <img width=200 src="https://i.imgur.com/m9hslUD.png"/>
 <img width=200 src="https://i.imgur.com/JPE9aXN.png"/>
 <img width=200 src="https://i.imgur.com/1ZWkcd6.png"/>
