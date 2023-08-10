@@ -19,7 +19,7 @@ export default function App() {
   const [request, response, signWithGithubFunction] = useAuthRequest(
     // configurando o authSession
     {
-      clientId: '2ce5af9a7c6967b2b033', // (esse número é id do app do github)
+      clientId: GITHUB_CLIENT_ID, // (esse número é id do app do github)
       scopes: ['identity'],
       redirectUri: makeRedirectUri({
         scheme: 'spacetime', // nome do app que configurei no meu app.json
